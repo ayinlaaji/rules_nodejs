@@ -446,3 +446,7 @@ def ts_library_macro(tsconfig = None, **kwargs):
         tsconfig = "//:tsconfig.json"
 
     ts_library(tsconfig = tsconfig, **kwargs)
+   
+
+def _ts_grpc_library_impl(ctx):
+    pass
